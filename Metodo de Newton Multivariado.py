@@ -3,7 +3,7 @@ import numpy as np
 from sympy import symbols, diff
 
 x1, x2 = symbols('x1 x2')
-f = x1**x1 - 49
+f = x1 -2*x2 + 49
 x0 =[0,3]
 
 e = 0.05

@@ -4,7 +4,7 @@ from sympy import symbols
 
 x1, x2 = symbols("x1 x2")
 
-f = (x1)**x1 - 49
+f = (x1)*x1 - 49
 
 def cf(x):
     return f.subs({x1:x[0], x2:x[1]})
